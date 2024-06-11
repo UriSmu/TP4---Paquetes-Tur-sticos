@@ -1,0 +1,40 @@
+@{
+    ViewData["Title"] = "SelectPaquete";
+}
+
+<h2 style="Color:red;">@ViewBag.MensajeError</h2> 
+<form action='@Url.ActionLink("GuardarPaquete", "Home")' method="GET">
+    <h3>Destinos</h3>
+    <ol>
+        @foreach(string destino in ViewBag.ListaDestinos)
+        {
+            <li>@destino</li>
+        }
+    </ol>
+    Elegí tu destino: <input type="number" name="Destino" value=0/><br/>
+    <h3>Hoteles</h3>
+    <ol>
+        @foreach(string hotel in ViewBag.ListaHoteles)
+        {
+            <li>@hotel</li>
+        }
+    </ol>
+    Elegí tu hotel: <input type="number" name="Hotel" value=0/><br/>
+    <h3>Aéreo</h3>
+    <ol>
+        @foreach(string aereo in ViewBag.ListaAereos)
+        {
+            <li><img src='@aereo'></li>
+        }
+    </ol>
+    Elegí tu aéreo: <input type="number" name="Aereo" value=0/><br/>
+    <h3>Excursión</h3>
+    <ol>
+        @foreach(string excursion in ViewBag.ListaExcursiones)
+        {
+            <li><img src='@excursion'></li>
+        }
+    </ol>
+    Elegí tu excursión: <input type="number" name="Excursion" value=0/><br/>
+    <input type="submit" value="Crear Paquete">
+</form>

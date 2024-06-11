@@ -1,0 +1,121 @@
+{
+  "Files": [
+    {
+      "Id": "Z:\\4to\\Programación\\TP4__Paquetes_Tursticos\\TP4__Paquetes_Tursticos\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "Z:\\4to\\Programación\\TP4__Paquetes_Tursticos\\TP4__Paquetes_Tursticos\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "Z:\\4to\\Programación\\TP4__Paquetes_Tursticos\\TP4__Paquetes_Tursticos\\wwwroot\\img\\AA.jpg",
+      "PackagePath": "staticwebassets\\img\\AA.jpg"
+    },
+    {
+      "Id": "Z:\\4to\\Programación\\TP4__Paquetes_Tursticos\\TP4__Paquetes_Tursticos\\wwwroot\\img\\Emirates.jpg",
+      "PackagePath": "staticwebassets\\img\\Emirates.jpg"
+    },
+    {
+      "Id": "Z:\\4to\\Programación\\TP4__Paquetes_Tursticos\\TP4__Paquetes_Tursticos\\wwwroot\\img\\Excursion-centralpark.jpg",
+      "PackagePath": "staticwebassets\\img\\Excursion-centralpark.jpg"
+    },
+    {
+      "Id": "Z:\\4to\\Programación\\TP4__Paquetes_Tursticos\\TP4__Paquetes_Tursticos\\wwwroot\\img\\Excursion-crucerocena.png",
+      "PackagePath": "staticwebassets\\img\\Excursion-crucerocena.png"
+    },
+    {
+      "Id": "Z:\\4to\\Programación\\TP4__Paquetes_Tursticos\\TP4__Paquetes_Tursticos\\wwwroot\\img\\Excursion-gastronomica.jpg",
+      "PackagePath": "staticwebassets\\img\\Excursion-gastronomica.jpg"
+    },
+    {
+      "Id": "Z:\\4to\\Programación\\TP4__Paquetes_Tursticos\\TP4__Paquetes_Tursticos\\wwwroot\\img\\Excursion-tigre.jpg",
+      "PackagePath": "staticwebassets\\img\\Excursion-tigre.jpg"
+    },
+    {
+      "Id": "Z:\\4to\\Programación\\TP4__Paquetes_Tursticos\\TP4__Paquetes_Tursticos\\wwwroot\\img\\Excursion-vaticano.jpg",
+      "PackagePath": "staticwebassets\\img\\Excursion-vaticano.jpg"
+    },
+    {
+      "Id": "Z:\\4to\\Programación\\TP4__Paquetes_Tursticos\\TP4__Paquetes_Tursticos\\wwwroot\\img\\Iberia.jpg",
+      "PackagePath": "staticwebassets\\img\\Iberia.jpg"
+    },
+    {
+      "Id": "Z:\\4to\\Programación\\TP4__Paquetes_Tursticos\\TP4__Paquetes_Tursticos\\wwwroot\\img\\Lufthansa.jpg",
+      "PackagePath": "staticwebassets\\img\\Lufthansa.jpg"
+    },
+    {
+      "Id": "Z:\\4to\\Programación\\TP4__Paquetes_Tursticos\\TP4__Paquetes_Tursticos\\wwwroot\\img\\United.jpg",
+      "PackagePath": "staticwebassets\\img\\United.jpg"
+    },
+    {
+      "Id": "Z:\\4to\\Programación\\TP4__Paquetes_Tursticos\\TP4__Paquetes_Tursticos\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "Z:\\4to\\Programación\\TP4__Paquetes_Tursticos\\TP4__Paquetes_Tursticos\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "Z:\\4to\\Programación\\TP4__Paquetes_Tursticos\\TP4__Paquetes_Tursticos\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "Z:\\4to\\Programación\\TP4__Paquetes_Tursticos\\TP4__Paquetes_Tursticos\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "Z:\\4to\\Programación\\TP4__Paquetes_Tursticos\\TP4__Paquetes_Tursticos\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "Z:\\4to\\Programación\\TP4__Paquetes_Tursticos\\TP4__Paquetes_Tursticos\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "Z:\\4to\\Programación\\TP4__Paquetes_Tursticos\\TP4__Paquetes_Tursticos\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "Z:\\4to\\Programación\\TP4__Paquetes_Tursticos\\TP4__Paquetes_Tursticos\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "Z:\\4to\\Programación\\TP4__Paquetes_Tursticos\\TP4__Paquetes_Tursticos\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "Z:\\4to\\Programación\\TP4__Paquetes_Tursticos\\TP4__Paquetes_Tursticos\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "Z:\\4to\\Programación\\TP4__Paquetes_Tursticos\\TP4__Paquetes_Tursticos\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "Z:\\4to\\Programación\\TP4__Paquetes_Tursticos\\TP4__Paquetes_Tursticos\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "Z:\\4to\\Programación\\TP4__Paquetes_Tursticos\\TP4__Paquetes_Tursticos\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.TP4__Paquetes_Tursticos.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.TP4__Paquetes_Tursticos.props",
+      "PackagePath": "build\\TP4__Paquetes_Tursticos.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.TP4__Paquetes_Tursticos.props",
+      "PackagePath": "buildMultiTargeting\\TP4__Paquetes_Tursticos.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.TP4__Paquetes_Tursticos.props",
+      "PackagePath": "buildTransitive\\TP4__Paquetes_Tursticos.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

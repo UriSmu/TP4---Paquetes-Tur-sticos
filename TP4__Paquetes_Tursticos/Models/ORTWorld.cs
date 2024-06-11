@@ -29,7 +29,7 @@ public static class ORTWorld
             "../img/Excursion-crucerocena.png",
             "../img/Excursion-gastronomica.jpg",
             "../img/Excursion-vaticano.jpg"};
-    public static Dictionary<string, Paquete> Paquetes {get; private set;}
+    public static Dictionary<string, Paquete> Paquetes {get; private set;} = new Dictionary<string, Paquete>();
 
 
     public static bool IngresarPaquete(string destinoSeleccionado, Paquete paquete)

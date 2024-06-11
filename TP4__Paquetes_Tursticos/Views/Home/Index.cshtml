@@ -3,6 +3,18 @@
 }
 
 <div>
-    <h1>Index</h1>
-    <p>Bienvenidos al sitio web de NombreProyecto</p>
+    <h1>ORTWORLD</h1>
+    <h3>Un viaje único</h3>
 </div>
+<div>
+    <a href='@Url.Action("SelectPaquete", "Home")' alt="Cargar un nuevo paquete"> Cargar Paquete</a>
+</div>
+@foreach(string destino in ViewBag.Paquetes)
+{
+    <div class="paquete">
+        <h4>@destino</h4>
+        <h4>@ViewBag.Paquetes[destino].Hotel</h4>
+        <img src='@ViewBag.Paquetes[destino].Aereo'>
+        <img src='@ViewBag.Paquetes[destino].Excursion'>
+    </div>
+}

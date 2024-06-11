@@ -31,28 +31,35 @@ public class HomeController : Controller
     public IActionResult GuardarPaquete (int Destino, int Hotel, int Aereo, int Excursion)
     {
         bool a = false;
+        bool b = false;
         if(!(Destino > 0 && Destino <= 10))
         {
-            ViewBag.MensajeError = "El destino " + Destino + " no existe en nuestra web";
+            ViewBag.MensajeError = "El destino " + Destino + " no existe en nuestra web.";
             a = true;
         }
         else if(!(Hotel > 0 && Hotel <= 5))
         {
-            ViewBag.MensajeError = "El hotel " + Hotel + " no existe en nuestra web";
+            ViewBag.MensajeError = "El hotel " + Hotel + " no existe en nuestra web.";
             a = true;
         }
         else if(!(Aereo > 0 && Aereo <= 5))
         {
-            ViewBag.MensajeError = "El aéreo " + Aereo + " no existe en nuestra web";
+            ViewBag.MensajeError = "El aéreo " + Aereo + " no existe en nuestra web.";
             a = true;
         }
         else if(!(Excursion > 0 && Excursion <= 5))
         {
-            ViewBag.MensajeError = "La excursion " + Excursion + " no existe en nuestra web";
+            ViewBag.MensajeError = "La excursion " + Excursion + " no existe en nuestra web.";
             a = true;
         }
+        else
+        {
+            Paquete paquete = new Paquete(ORTWorld.ListaHoteles[Hotel-1], ORTWorld.ListaAereos[Aereo-1], ORTWorld.ListaExcursiones[Excursion-1]);
+            b = ORTWorld.IngresarPaquete(ORTWorld.ListaDestinos[Destino-1], paquete);
+            if(!b) ViewBag.MensajeError = "El destino " + ORTWorld.ListaDestinos[Destino-1] + " (#" + Destino + ") ya tiene un paquete en nuestra web.";
+        }
 
-        if(a)
+        if(a || !b)
         {
             ViewBag.ListaDestinos = ORTWorld.ListaDestinos;
             ViewBag.ListaAereos = ORTWorld.ListaAereos;
@@ -61,6 +68,7 @@ public class HomeController : Controller
             return View("SelectPaquete");
         }
 
-        return View();
+        ViewBag.Paquetes = ORTWorld.Paquetes;
+        return View("Index");
     }
 }
