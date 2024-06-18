@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TP4__Paquetes_Tursticos")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6945ba1fcb273c55107bac3d893db226b7407918")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bdd6b35488509a2153a419a78870c120e994c710")]
 [assembly: System.Reflection.AssemblyProductAttribute("TP4__Paquetes_Tursticos")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TP4__Paquetes_Tursticos")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
