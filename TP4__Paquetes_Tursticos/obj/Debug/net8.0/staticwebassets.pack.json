@@ -41,6 +41,10 @@
       "PackagePath": "staticwebassets\\img\\Iberia.jpg"
     },
     {
+      "Id": "Z:\\4to\\Programación\\TP4__Paquetes_Tursticos\\TP4__Paquetes_Tursticos\\wwwroot\\img\\Logo.jpg",
+      "PackagePath": "staticwebassets\\img\\Logo.jpg"
+    },
+    {
       "Id": "Z:\\4to\\Programación\\TP4__Paquetes_Tursticos\\TP4__Paquetes_Tursticos\\wwwroot\\img\\Lufthansa.jpg",
       "PackagePath": "staticwebassets\\img\\Lufthansa.jpg"
     },

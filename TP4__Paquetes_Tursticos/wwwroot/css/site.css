@@ -38,39 +38,54 @@ header
   border: 2px solid lightblue;
   margin-right: 44%;
   margin-left: 46%;
-  padding-left: 30px;
+  text-align: center;
 }
 img
 {
   border-radius: 10px;
 }
-.destino
+.lista
 {
-
   background-color: lightcyan;
-  margin-right: 40%;
-  margin-left: 42%;
-  padding-left: 40px;
+  padding-left: 10%;
   text-align: center;
   border-radius: 10px;
   border: 3px solid lightblue;
 }
-.hoteles
+.lista img
 {
-
-  background-color: lightcyan;
+  width: 70%;
+  height: auto;
+}
+.textDestinos{margin-left: 35%; color: blue;}
+.textHoteles{margin-left: 35%; color: blue;}
+.textAereos{margin-left: 35%; color: blue;}
+.textExcursion{margin-left: 35%; color: blue;}
+.form
+{
   margin-right: 40%;
   margin-left: 42%;
-  padding-left: 40px;
-  text-align: center;
+}
+.titulo h1{font-size: 130%;}
+.titulo h3{font-size: 130%;}
+.titulo{padding-left: 47%;}
+.link
+{
+  background-color: lightcyan;
+  padding-left: 3%;
   border-radius: 10px;
   border: 3px solid lightblue;
+  margin-right: 43%;
+  margin-left: 45%;
 }
-.textDestinos{margin-left: 48%;color: blue;}
-.textHoteles{margin-left: 48%;color: blue;}
-.textAereos{margin-left: 48%; color: blue;}
-
-
-
-
-
+.link a{
+  text-decoration: none;
+}
+.paquete{
+  background-color: lightcyan;
+  padding-left: 6%;
+  border-radius: 10px;
+  border: 3px solid lightblue;  
+  margin-right: 40%;
+  margin-left: 42%;
+}

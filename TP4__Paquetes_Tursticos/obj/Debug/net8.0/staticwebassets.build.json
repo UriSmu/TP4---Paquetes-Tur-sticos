@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Vq9PKP/VZIIhfdtFEYB32KqkCBQ4zRdz2dSXY4i/yCQ=",
+  "Hash": "6wmEOK1x26DS0gM8Vn+DLO+HsghJGfGdyqtCSlus3G4=",
   "Source": "TP4__Paquetes_Tursticos",
   "BasePath": "_content/TP4__Paquetes_Tursticos",
   "Mode": "Default",
@@ -205,6 +205,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\Iberia.jpg"
+    },
+    {
+      "Identity": "Z:\\4to\\Programación\\TP4__Paquetes_Tursticos\\TP4__Paquetes_Tursticos\\wwwroot\\img\\Logo.jpg",
+      "SourceId": "TP4__Paquetes_Tursticos",
+      "SourceType": "Discovered",
+      "ContentRoot": "Z:\\4to\\Programación\\TP4__Paquetes_Tursticos\\TP4__Paquetes_Tursticos\\wwwroot\\",
+      "BasePath": "_content/TP4__Paquetes_Tursticos",
+      "RelativePath": "img/Logo.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\Logo.jpg"
     },
     {
       "Identity": "Z:\\4to\\Programación\\TP4__Paquetes_Tursticos\\TP4__Paquetes_Tursticos\\wwwroot\\img\\Lufthansa.jpg",

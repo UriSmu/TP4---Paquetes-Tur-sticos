@@ -3,38 +3,43 @@
 }
 
 <h2 style="Color:red;">@ViewBag.MensajeError</h2> 
-<form action='@Url.ActionLink("GuardarPaquete", "Home")' method="GET">
-    <h3 class="textDestinos">Destinos</h3>
-    <ol class="destino">
-        @foreach(string destino in ViewBag.ListaDestinos)
-        {
-            <li>@destino</li>
-        }
-    </ol>
-    Elegí tu destino: <input type="number" name="Destino" value=0/><br/>
-    <h3 class="textHoteles">Hoteles</h3>
-    <ol class="hoteles">
-        @foreach(string hotel in ViewBag.ListaHoteles)
-        {
-            <li>@hotel</li>
-        }
-    </ol>
-    Elegí tu hotel: <input type="number" name="Hotel" value=0/><br/>
-    <h3 class="textAereos">Aéreos</h3>
-    <ol class="aereos">
-        @foreach(string aereo in ViewBag.ListaAereos)
-        {
-            <li><img src='@aereo'></li>
-        }
-    </ol>
-    Elegí tu aéreo: <input type="number" name="Aereo" value=0/><br/>
-    <h3 class="textExcursiones">Excursión</h3>
-    <ol class="excursiones">
-        @foreach(string excursion in ViewBag.ListaExcursiones)
-        {
-            <li><img src='@excursion'></li>
-        }
-    </ol>
-    Elegí tu excursión: <input type="number" name="Excursion" value=0/><br/>
-    <input type="submit" value="Crear Paquete" class="submit">
-</form>
+<div class="form">
+    <form action='@Url.ActionLink("GuardarPaquete", "Home")' method="GET">
+        <h3 class="textDestinos">Destinos</h3>
+        <ol class="lista">
+            @foreach(string destino in ViewBag.ListaDestinos)
+            {
+                <li>@destino</li>
+            }
+        </ol>
+        Elegí tu destino:<br/> <input type="number" name="Destino" value=0/><br/>
+        <h3 class="textHoteles">Hoteles</h3>
+        <ol class="lista">
+            @foreach(string hotel in ViewBag.ListaHoteles)
+            {
+                <li>@hotel</li>
+            }
+        </ol>
+        Elegí tu hotel:<br/> <input type="number" name="Hotel" value=0/><br/>
+        <h3 class="textAereos">Aéreos</h3>
+        <ol class="lista">
+            @foreach(string aereo in ViewBag.ListaAereos)
+            {
+                <li><img src='@aereo'></li>
+            }
+        </ol>
+        Elegí tu aéreo:<br/> <input type="number" name="Aereo" value=0/><br/>
+        <h3 class="textExcursiones">Excursión</h3>
+        <ol class="lista">
+            @foreach(string excursion in ViewBag.ListaExcursiones)
+            {
+                <li><img src='@excursion'></li>
+            }
+        </ol>
+        Elegí tu excursión:<br/> <input type="number" name="Excursion" value=0/><br/>
+        <input type="submit" value="Crear Paquete" class="submit">
+    </form>
+</div>
+<div class="link">
+    <a href='@Url.Action("Index", "Home")' alt="Volver a la Home"> Volver a la Home</a>
+</div>
